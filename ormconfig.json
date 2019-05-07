@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "owezzy",
+  "password": "owezzy",
+  "database": "soko-bora-nestjs",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true
+}
